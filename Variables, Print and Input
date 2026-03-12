@@ -145,5 +145,8 @@ Print both variables at the end to prove they have swapped.
  
 
 Answer:  
-
- 
+c = a
+a = b
+b = c
+print(a)
+print(b) 
