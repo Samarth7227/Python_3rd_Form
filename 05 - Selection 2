@@ -1,0 +1,94 @@
+Q1
+A program gives students a grade based on their test score. The program should print "A" for scores of 70 or more, "B" for scores from 60 to 69, and "C" for any score below 60. Complete the missing part of the code so that the elif statement works correctly.
+·       Read the grading rules carefully.
+·       Complete the missing number in the elif condition.
+·       Make sure a score of 60 should produce grade B.
+score = int(input("Enter score: "))
+
+if score >= 70:
+    print("A")
+elif score >= 60:
+    print("B")
+else:
+    print("C")
+
+
+
+
+Q2
+A secure system only grants access if the username and password are both correct. The correct username is already written as "admin". Complete the missing part of the code so that the program only prints "Access granted" when both pieces of information are correct.
+·       Read the condition carefully.
+·       The username must be correct and the password must be correct.
+·       Complete the missing password value.
+user = input("Username: ")
+password = input("Password: ")
+
+if user == "admin" and password == ______:
+    print("Access granted")
+
+
+
+
+Q3
+A program needs to check whether a number is inside a certain range. The number should count as "In range" if it is between 1 and 10, including both 1 and 10. Complete the missing part of the code so that the range check works correctly.
+·       Read the condition carefully.
+·       The number must be greater than or equal to 1.
+·       Complete the upper limit so the range is from 1 to 10 inclusive.
+num = int(input("Enter number: "))
+
+if num >= 1 and num <= ______:
+    print("In range")
+
+
+
+
+Q4
+A cinema charges different prices depending on the age of the customer. Write a complete Python program that asks the user to enter an age. The program should print "Free" if the age is under 5, "£5" if the age is under 18, and "£10" for everyone else.
+·       Ask the user for their age.
+·       Use if, elif, and else.
+·       Put the conditions in the correct order so younger children are handled first.
+
+
+
+
+Q5
+A website wants to check whether a password is strong enough. Write a complete Python program that asks the user to enter a password. The program should print "Strong" if the password is at least 8 characters long and it is not equal to "password". Otherwise, it should print "Weak".
+·       Use 'and' to combine both conditions.
+·       Use else to print "Weak" when either rule is not met.
+
+
+
+
+Q6
+A number can be placed into one of three categories. Write a complete Python program that asks the user to enter a number. The program should print "Low" if the number is between 1 and 10, "Medium" if the number is between 11 and 20, and "High" for all other values.
+·       Ask the user to enter a number.
+·       Make sure the ranges do not overlap.
+
+
+
+
+Q7
+A weather app wants to describe the temperature in more detail. Write a complete Python program that asks the user to enter a temperature. The program should print "Hot" if the temperature is above 30, "Warm" if the temperature is above 20, and "Cold" for all other temperatures.
+·       Ask the user for a temperature.
+·       Use if, elif, and else.
+·       Check the largest value first so the categories work properly.
+
+
+
+
+Q8
+A diary app needs to decide whether a day is a weekend or a weekday. Write a complete Python program that asks the user to enter a day of the week. The program should print "Weekend" if the day is "Saturday" or "Sunday". Otherwise, it should print "Weekday".
+
+
+
+
+Extension
+
+Q9
+A company has a more secure login system. Write a complete Python program that asks the user to enter a username and a password. The username must be exactly "admin". The password must be at least 6 characters long. The password must also not be equal to "password". If all of these rules are true, the program should print "Access granted". Otherwise, it should print "Access denied".
+
+
+
+
+Q10
+A system checks whether a short access code is acceptable. Write a complete Python program that asks the user to enter a code. The code should only be accepted if it is exactly 3 characters long, it is not equal to "111", and it contains either the letter "A" or the letter "B". If the code meets all the rules, the program should print "VALID". Otherwise, it should print "INVALID".
